@@ -1,0 +1,125 @@
+#homework {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.homework-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.homework-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.homework-details {
+    padding: 20px;
+    flex: 1;
+}
+
+.homework-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.homework-subject {
+    font-size: 1.1rem;
+    color: #888;
+    margin-bottom: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.homework-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.homework-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+    .homework-card:hover {
+        transform: scale(1.03);
+    }
+
+.homework-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.homework-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.homework-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.homework-subject {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ffc107;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+    .btn:hover {
+        background-color: #e0a800;
+    }
+
+@media (max-width: 768px) {
+    .homework-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
